@@ -4,6 +4,7 @@ import Welcome from '@/views/Welcome'
 import Tools from '@/views/Tools'
 import Projects from '@/views/Projects'
 import AboutMe from '@/views/AboutMe'
+import Contact from '@/views/Contact'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/aboutme',
       name: 'aboutme',
       component: AboutMe
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
     }
   ]
 })

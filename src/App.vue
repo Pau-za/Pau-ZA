@@ -2,7 +2,9 @@
   <div id="app">
     <nav>
       <div class="nav-wrapper grey darken-4">
-        <router-link to="/" class="brand-logo right">Logo</router-link>
+        <router-link to="/" class="brand-logo right">
+          <img id="my-logo" src="./assets/pauza-logo.png" alt>
+        </router-link>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li>
             <router-link to="/tools">Tools</router-link>
@@ -37,6 +39,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+
+#my-logo {
+  width: 10%;
+  margin-top: 1%;
+  margin-left: 82%;
 }
 
 .title {
