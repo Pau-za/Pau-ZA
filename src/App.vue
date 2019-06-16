@@ -21,13 +21,18 @@
         </ul>
       </div>
     </nav>
+    <SideNav/>
     <router-view/>
   </div>
 </template>
 
 <script>
+import SideNav from "@/components/SideNav";
 export default {
-  name: "App"
+  name: "App", 
+  components: {
+    SideNav
+  }
 };
 </script>
 
