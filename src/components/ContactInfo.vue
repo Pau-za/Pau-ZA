@@ -1,9 +1,6 @@
 <template>
   <div class="container">
     <ul class="collection with-header">
-      <!-- <li class="collection-header">
-        <h4>Let's do amazing things!</h4>
-      </li>-->
       <li class="collection-item">
         <div class="text">
           E-mail: molo_pau@hotmail.com

@@ -3,8 +3,11 @@
     <nav>
       <div class="nav-wrapper grey darken-4">
         <router-link to="/" class="brand-logo right">
-          <img id="my-logo" src="./assets/pauza-logo.png" alt>
+          <img id="my-logo" src="./assets/pauza-logo.png" alt="pauza-logo">
         </router-link>
+        <a href="#" class="sidenav-trigger" data-target="side-menu">
+          <i class="material-icons">menu</i>
+        </a>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li>
             <router-link to="/tools">Tools</router-link>
@@ -21,17 +24,42 @@
         </ul>
       </div>
     </nav>
-    <SideNav/>
+    <ul class="sidenav" id="side-menu">
+      <li>
+        <router-link to="/tools">Tools</router-link>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <router-link to="/projects">Projects</router-link>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <router-link to="/aboutme">About me</router-link>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <router-link to="/contact">Contact</router-link>
+      </li>
+    </ul>
     <router-view/>
   </div>
 </template>
 
 <script>
-import SideNav from "@/components/SideNav";
 export default {
-  name: "App", 
-  components: {
-    SideNav
+  name: "App",
+  
+   methods: {
+    activate: document.addEventListener("DOMContentLoaded", () => {
+      var elems = document.querySelectorAll(".sidenav");
+      var instances = M.Sidenav.init(elems);
+    })
   }
 };
 </script>
