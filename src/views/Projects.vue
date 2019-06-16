@@ -1,7 +1,7 @@
 <template>
   <div>
     <Mandala/>
-    <h3>Here I show you some of my projects</h3>
+    <h3 class="title">Here I show you some of my projects</h3>
     <CardsProjects/>
   </div>
 </template>

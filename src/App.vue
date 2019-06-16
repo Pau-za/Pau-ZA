@@ -38,4 +38,18 @@ export default {
   color: #2c3e50;
   /* margin-top: 60px; */
 }
+
+.title {
+  font-family: "Mali", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Handlee", cursive;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.text {
+  font-family: "Oswald", sans-serif;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
 </style>

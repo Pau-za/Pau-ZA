@@ -9,8 +9,8 @@
                 <img src="../assets/projects-imgs/cipher_project_3.jpg" class="responsive-img">
               </div>
               <div class="card-content">
-                <div class="card-title">Cipher</div>
-                <p class="justify">
+                <div class="card-title title">Cipher</div>
+                <p class="justify text">
                   I used
                   <strong>vanilla javascript</strong>,
                   <strong>HTML 5</strong>, and
@@ -25,12 +25,12 @@
                 <a
                   href="https://pau-za.github.io/cdmx-2019-01-bc-core-am-cipher/src/"
                   target="blank"
-                  class="pointer"
+                  class="pointer text"
                 >Go to site</a>
                 <a
                   href="https://github.com/Pau-za/cdmx-2019-01-bc-core-am-cipher/tree/master/src"
                   target="blank"
-                  class="pointer"
+                  class="pointer text"
                 >Code page</a>
               </div>
             </div>
@@ -42,8 +42,8 @@
                 <img src="../assets/projects-imgs/data_lovers_project_2.png" class="responsive-img">
               </div>
               <div class="card-content">
-                <div class="card-title">Data Lovers</div>
-                <p class="justify">
+                <div class="card-title title">Data Lovers</div>
+                <p class="justify text">
                   This page feeds from an
                   <strong>API</strong> with data from
                   <strong>The World Bank</strong>, and it shows it in dinamic HTML tables, and on
@@ -57,12 +57,12 @@
                 <a
                   href="https://pau-za.github.io/cdmx-2019-01-bc-core-data-lovers/src/"
                   target="blank"
-                  class="pointer"
+                  class="pointer text"
                 >Go to site</a>
                 <a
                   href="https://github.com/Pau-za/cdmx-2019-01-bc-core-data-lovers/tree/master/src"
                   target="blank"
-                  class="pointer"
+                  class="pointer text"
                 >Code page</a>
               </div>
             </div>
@@ -79,8 +79,8 @@
               <img src="../assets/projects-imgs/mdlinks3.png" class="responsive-img">
             </div>
             <div class="card-content">
-              <div class="card-title">Markdown Links</div>
-              <p class="justify">
+              <div class="card-title title">Markdown Links</div>
+              <p class="justify text">
                 Here I utilized vanilla JS to identify, trhough the
                 <strong>bash terminal</strong>, the number of links
                 any
@@ -91,12 +91,12 @@
               <a
                 href="https://www.npmjs.com/package/markdown-find-links"
                 target="blank"
-                class="pointer"
+                class="pointer text"
               >Download page</a>
               <a
                 href="https://github.com/Pau-za/CDMX007-fe-md-links"
                 target="blank"
-                class="pointer"
+                class="pointer text"
               >Code page</a>
             </div>
           </div>
@@ -108,8 +108,8 @@
               <img src="../assets/projects-imgs/bq.jpg" class="responsive-img">
             </div>
             <div class="card-content">
-              <div class="card-title">Burger Queen</div>
-              <p class="justify">
+              <div class="card-title title">Burger Queen</div>
+              <p class="justify text">
                 I developed a web app
                 to help a restaurante employees to take the clients orders, using the javascript framework:
                 <strong>Vuejs</strong>.
@@ -123,14 +123,14 @@
               <a
                 href="https://burger-queen-project.firebaseapp.com/#/"
                 target="blank"
-                class="pointer"
+                class="pointer text"
               >
                 Go to site
               </a>
               <a
                 href="https://github.com/Pau-za/CDMX007-fe-burger-queen"
                 target="blank"
-                class="pointer"
+                class="pointer text"
               >Code page</a>
             </div>
           </div>

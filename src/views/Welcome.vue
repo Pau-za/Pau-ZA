@@ -1,8 +1,8 @@
 <template>
   <div>
     <img class="responsive-img" id="mandala" src="../assets/mandala3.jpg" alt="mandala-image">
-    <h1>Welcome to my portfolio</h1>
-    <h6>I am PauZA, and I love to code!</h6>
+    <h1 class="title">Welcome to my portfolio</h1>
+    <h5 class="title">I am PauZA, and I love to code!</h5>
   </div>
 </template>
 
