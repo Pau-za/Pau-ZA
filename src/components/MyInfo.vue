@@ -14,7 +14,7 @@
         I am Paulina Zedillo Avelleyra.
         <br>I studied Front-End in the
         <a href="https://www.laboratoria.la/">Laboratoria Bootcamp</a>, that empowers women to get into the tech industry and makes it more diverse.
-        <br>I love to acquire new knowledge every day, and thechnology and sciences are great ways to do it!
+        <br>I love to acquire new knowledge every day, and technology and sciences are great ways to do it!
       </h6>
     </div>
   </div>
