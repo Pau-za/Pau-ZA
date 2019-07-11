@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row tools-icons">
+    <!-- <div class="row tools-icons">
       <div class="col l4 m4 s2 center"></div>
       <a href="https://vuejs.org/v2/guide/" target="blank">
         <img
@@ -89,7 +89,58 @@
         >
       </a>
       <div class="col l3 m3 s1 center"></div>
-    </div>
+    </div> -->
+
+    <table class="centered">
+      <thead>
+        <tr>
+          <th>Tech Skills</th>
+          <th>Soft Skills</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Angular 8</td>
+          <td>Time management</td>
+        </tr>
+        <tr>
+          <td>Vue.JS + Vuex</td>
+          <td>Logical thinking</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Writen and Oral Comunication</td>
+        </tr>
+        <tr>
+          <td>HTML 5</td>
+          <td>Iniciative and Proactivity</td>
+        </tr>
+        <tr>
+          <td>CSS 3</td>
+          <td>Self-learning</td>
+        </tr>
+        <tr>
+          <td>Materialize</td>
+          <td>Adaptability</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>Critical Thinking</td>
+        </tr>
+        <tr>
+          <td>Node.JS</td>
+          <td>Experimentation</td>
+        </tr>
+        <tr>
+          <td>Firebase</td>
+          <td>Analysis capacity</td>
+        </tr>
+        <tr>
+          <td>Charts.JS</td>
+          <td>Teamwork</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 

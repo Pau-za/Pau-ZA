@@ -35,6 +35,8 @@ export default {
   width: 100%;
   height: auto;
   border-radius: 50%;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(37% at 52% 44%);
 }
 
 @media only screen and (max-width: 1024px) {

@@ -2,7 +2,7 @@
   <div>
     <Mandala/>
     <div class="container">
-      <h3 class="title">These are the tools I have used</h3>
+      <h3 class="title">These are some of my skills</h3>
       <ToolsIcons/>
     </div>
   </div>
