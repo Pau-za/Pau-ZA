@@ -13,7 +13,7 @@
             <router-link to="/">Home</router-link>
           </li>
           <li>
-            <router-link to="/tools">Tools</router-link>
+            <router-link to="/tools">Skills</router-link>
           </li>
           <li>
             <router-link to="/projects">Projects</router-link>
