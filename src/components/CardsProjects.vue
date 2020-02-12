@@ -102,25 +102,25 @@
         <div class="col s12 m6 l6">
           <div class="card">
             <div class="card-image">
-              <img src="../assets/projects-imgs/miniblog-2.png" class="responsive-img" />
+              <img src="../assets/projects-imgs/keep-in-touch-2.png" class="responsive-img" />
             </div>
             <div class="card-content">
-              <div class="card-title title">Mini-Blog</div>
+              <div class="card-title title">Keep in Touch</div>
               <p class="justify text">
                 I used
-                <strong>Angular</strong>, and
-                <strong>Bootstrap</strong> to create a page that feeds on an
-                <strong>API</strong> to show the posts saved in the database, and also update it adding a new user.
+                <strong>Vue</strong>,
+                <strong>Materialize</strong> and <strong>Firebase</strong> to create a page that helps
+                students of a eurpean masters program to keep in touch even when they are no loger living in the same city.
               </p>
             </div>
             <div class="card-action">
               <a
-                href="https://cambasblog.web.app/home"
+                href="https://keepintouch-eur.web.app/#/"
                 target="blank"
                 class="pointer text"
               >Go to site</a>
               <a
-                href="https://github.com/Pau-za/cambas-blog"
+                href="https://github.com/Pau-za/keepintouch"
                 target="blank"
                 class="pointer text"
               >Code page</a>
