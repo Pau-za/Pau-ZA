@@ -3,7 +3,7 @@
     <nav>
       <div class="nav-wrapper grey darken-4">
         <router-link to="/" class="brand-logo right">
-          <img id="my-logo" src="./assets/pauza-logo.png" alt="pauza-logo">
+          <img id="my-logo" src="./assets/pauza-logo.png" alt="pauza-logo" />
         </router-link>
         <a href="#" class="sidenav-trigger" data-target="side-menu">
           <i class="material-icons">menu</i>
@@ -20,6 +20,9 @@
           </li>
           <li>
             <router-link to="/aboutme">About me</router-link>
+          </li>
+          <li>
+            <router-link to="/stories">My stories</router-link>
           </li>
           <li>
             <router-link to="/contact">Contact</router-link>
@@ -44,26 +47,29 @@
         <router-link to="/aboutme">About me</router-link>
       </li>
       <li>
+        <router-link to="/stories">My stories</router-link>
+      </li>
+      <li>
         <div class="divider"></div>
       </li>
       <li>
         <router-link to="/contact">Contact</router-link>
       </li>
     </ul>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
 export default {
   name: "App",
-  
-   methods: {
+
+  methods: {
     activate: document.addEventListener("DOMContentLoaded", () => {
       var elems = document.querySelectorAll(".sidenav");
       var instances = M.Sidenav.init(elems);
-    })
-  }
+    }),
+  },
 };
 </script>
 
@@ -74,7 +80,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  /* margin-top: 60px; */
 }
 
 #my-logo {
